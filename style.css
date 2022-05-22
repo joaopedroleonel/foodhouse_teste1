@@ -1,0 +1,98 @@
+.img {
+	width: 240px;
+}
+
+.font-titulo2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 70px;
+    margin-bottom: 25px;
+}
+
+.cor-especial {
+	color: darkorange;
+}
+
+.banner {
+	margin-top: 50px;
+}
+
+.card-largura {
+    max-width: 18rem
+}
+
+
+.texto {
+    text-decoration: none;
+}
+
+.botao-cor-especial {
+    background-color: darkorange;
+    color: white;
+}
+
+.borda-cor-especial {
+    border-color: black;
+}
+
+.card-posiçao-imagem {
+    object-fit: cover;
+    height: 200px;
+}
+
+
+.cor-fundo {
+    background-color: lightgray;
+}
+
+.espaço {
+    margin-left: 113.500px;
+    margin-right: 113.500px;
+}
+
+.card {
+	margin-bottom: 15px;
+	margin-top: 20px;
+}
+
+.container-fluid {
+		display: flex;
+}
+
+#quetin {
+	display: none;
+}
+
+#rock {
+	display: none;
+}
+
+#pas {
+	display: none;
+}
+
+#jimmy {
+	display: none;
+}
+
+.carrinho1 {
+	display: none;
+}
+
+#pontos1 {
+	display: none;
+}
+
+@media only screen and  (max-width: 720px) {
+	.p {
+		font-size: 30px;
+	}
+	.container-fluid {
+		display: grid;
+	}
+	.card {
+		margin-left: 4px;
+	}
+	.img {
+		width: 220px;
+	}
+}
